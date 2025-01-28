@@ -1,0 +1,168 @@
+@use '/src/assets/sass/index.scss' as *;
+
+.modal {
+  width: 1073px;
+  height: 610px;
+  border-radius: 10px;
+  background-color: $neutral-color-000;
+  border: 1px solid #b7b7b7;
+  display: grid;
+  grid-template-columns: 44fr 56fr;
+  grid-template-rows: 1;
+  gap: 0px;
+
+  @media only screen and (max-width: 1440px) {
+    width: 80vw;
+    margin-left: 14vw;
+  }
+}
+
+.art {
+  &_image {
+    &_wrapper {
+      grid-column: 1/2;
+      box-sizing: border-box;
+      padding: 39px;
+    }
+    &_bg {
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      border: 7px solid $neutral-color-000;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 15px 0px #00000033;
+      position: relative;
+    }
+    &_edit {
+      &_wrapper {
+        width: 74px;
+        height: 70px;
+        background: url('../../assets/images/Polygon_1.svg');
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -1px;
+        right: -1px;
+      }
+      &_icon {
+        position: absolute;
+        top: 7px;
+        right: 7px;
+        width: 21px;
+        height: auto;
+        cursor: pointer;
+      }
+    }
+    &_bottom {
+      &_buttons_wrapper {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 13px;
+        display: flex;
+        gap: 11px;
+      }
+      &_button {
+        @extend *, .button_plain, .button_rounded, .button_shadowed;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 32px;
+        width: 32px;
+        .svg_fill_1 {
+          fill: $primary-color-400;
+        }
+        .svg_fill_2 {
+          fill: $neutral-color-000;
+        }
+        &:hover {
+          @extend *, .gradient_button;
+          .svg_fill_1 {
+            fill: $neutral-color-000 !important;
+          }
+          .svg_fill_2 {
+            fill: $primary-color-400;
+          }
+        }
+      }
+    }
+  }
+  &_info {
+    &_wrapper {
+      grid-column: 2/3;
+      box-sizing: border-box;
+      padding: 39px 46px;
+    }
+    &_date {
+      font-family: MuseoSans, 'sans-serif';
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 22.8px;
+      padding-block: 20px 17px;
+    }
+    &_details {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+    &_detail {
+      &_wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      &_title {
+        &_wrapper {
+          display: flex;
+          justify-content: space-between;
+        }
+        &_text {
+          font-family: MuseoSans, 'sans-serif';
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 25.02px;
+        }
+        &_input {
+          @extend *, .custom_input_1, .body-text;
+          padding: 13px 14px;
+          font-size: 16px;
+          outline: none;
+          color: $primary-color-400;
+          resize: none;
+        }
+      }
+      &_character_count {
+        @extend *, .body-text;
+        font-size: 12px;
+        color: $primary-color-400;
+      }
+    }
+    &_options {
+      &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+      }
+      &_delete {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.78px;
+        text-decoration: underline;
+        color: $primary-color-400;
+        cursor: pointer;
+      }
+      &_save {
+        @extend *, .button, .button_radial_gradient, .h4;
+        padding: 14px 41px;
+        cursor: pointer;
+      }
+    }
+  }
+}

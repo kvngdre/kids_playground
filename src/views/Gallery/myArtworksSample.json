@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Gesaria",
+    "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "audience": "Only Me",
+    "imageUrl": "/images/placeholder_art_2.webp"
+  },
+  {
+    "title": "Lewan",
+    "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "audience": "Only Me",
+    "imageUrl": "/images/placeholder_art_3.webp"
+  },
+  {
+    "title": "Eduardo",
+    "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "audience": "Only Me",
+    "imageUrl": "/images/placeholder_art_4.webp"
+  },
+  {
+    "title": "Cicilia",
+    "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "audience": "Only Me",
+    "imageUrl": "/images/placeholder_art_5.webp"
+  },
+  {
+    "title": "Ferdinando",
+    "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "audience": "Only Me",
+    "imageUrl": "/images/placeholder_art_6.webp"
+  },
+  {
+    "title": "Marques",
+    "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "audience": "Only Me",
+    "imageUrl": "/images/placeholder_art_7.webp"
+  }
+]

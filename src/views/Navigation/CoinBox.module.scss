@@ -1,0 +1,64 @@
+@use '/src/assets/sass/index.scss' as *;
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  &.isCollapsed{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__button {
+    @include flex(center, center, 3px);
+    width: 103px;
+    height: 42.67px;
+    border-radius: 5px;
+    border: 1px solid $secondary-color-600;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(
+      180deg,
+      $secondary-color-600 0%,
+      $secondary-color-700 100%
+    );
+
+    &.isCollapsed{
+      display: flex;
+      flex-direction: column;
+      width: 60px;
+      gap: 10px;
+      padding-block: 10px;
+      height: fit-content;
+      margin-left: -15px;
+    }
+    
+    &_addIcon{
+      &.isCollapsed{
+        height: 5px;
+        width: 5px;
+        object-fit: contain;
+        object-position: center;
+      }
+    }
+    
+    &_coinIcon{
+      &.isCollapsed{
+        width: 16px;
+        height: auto;
+      }
+    }
+  }
+  
+  &__forwardArrows{
+    cursor: pointer;
+    transform: rotate(180deg);
+    &__collapsed{
+      margin-left: -15px;
+      margin-top: 10px;
+      transform: rotate(0deg);
+    }
+  }
+}

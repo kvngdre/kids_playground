@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "1a3b5c7d9e2f4g6",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_1.webp",
+    "isFavourited": true,
+    "isLiked": false
+  },
+  {
+    "_id": "h8j2k4l6m9n1o3",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_2.webp",
+    "isFavourited": true,
+    "isLiked": true
+  },
+  {
+    "_id": "p0q2r4s6t8u9v1",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_3.webp",
+    "isFavourited": true,
+    "isLiked": false
+  },
+  {
+    "_id": "w2x4y6z8a0b1c3",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_4.webp",
+    "isFavourited": true,
+    "isLiked": true
+  },
+  {
+    "_id": "d5e7f9g1h3i2j4",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_5.webp",
+    "isFavourited": true,
+    "isLiked": false
+  },
+  {
+    "_id": "k6l8m0n2o4p5q7",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_6.webp",
+    "isFavourited": true,
+    "isLiked": true
+  },
+  {
+    "_id": "r9s1t3u5v7w8x0",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_7.webp",
+    "isFavourited": true,
+    "isLiked": false
+  },
+  {
+    "_id": "y2z4a6b8c0d1e3",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_8.webp",
+    "isFavourited": true,
+    "isLiked": true
+  },
+  {
+    "_id": "f5g7h9i1j3k4l6",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_9.webp",
+    "isFavourited": true,
+    "isLiked": false
+  },
+  {
+    "_id": "m8n0o2p4q6r7s9",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_10.webp",
+    "isFavourited": true,
+    "isLiked": true
+  },
+  {
+    "_id": "t1u3v5w7x9y0z2",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_11.webp",
+    "isFavourited": true,
+    "isLiked": false
+  },
+  {
+    "_id": "b4c6d8e0f1g3h5",
+    "ownerUserName": "alicat",
+    "ownerImageUrl": "/images/placeholder_image.png",
+    "artImageUrl": "/images/placeholder_art_board_12.webp",
+    "isFavourited": true,
+    "isLiked": true
+  }
+]

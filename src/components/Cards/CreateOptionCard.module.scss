@@ -1,0 +1,45 @@
+@use '/src/assets/sass/index.scss' as *;
+
+.card {
+  &_wrapper {
+    border: 2px solid #c5c5c5;
+    border-radius: 10px;
+    width: 280px;
+    box-sizing: border-box;
+    padding: 40px 25px;
+    display: grid;
+    cursor: pointer;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 247, 159, 0.3) 100%
+    );
+
+    &:hover {
+      background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(171, 239, 255, 0.3) 100%
+      );
+    }
+  }
+  &_img {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+    object-position: center center;
+    margin: 0 auto 23px auto;
+    @extend *, .no-mouse-action;
+  }
+  &_title {
+    @extend *, .h3, .text-center, .no-mouse-action;
+  }
+  &_description {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: center;
+    @extend *, .no-mouse-action;
+  }
+}

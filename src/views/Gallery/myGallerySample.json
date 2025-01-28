@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Art Gallery 1",
+    "artworks": [
+      {
+        "title": "Art work 1",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 2",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 3",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 4",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 5",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      }
+    ]
+  },
+  {
+    "name": "Art Gallery 2",
+    "artworks": [
+      {
+        "title": "Art work 1",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 2",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 3",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 4",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 5",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      }
+    ]
+  },
+  {
+    "name": "Art Gallery 3",
+    "artworks": [
+      {
+        "title": "Art work 1",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 2",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 3",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 4",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      },
+      {
+        "title": "Art work 5",
+        "description": "Art Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "audience": "Only Me",
+        "imageUrl": "/images/placeholder_art_1.1.webp"
+      }
+    ]
+  }
+]

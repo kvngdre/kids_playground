@@ -1,0 +1,53 @@
+@use '/src/assets/sass/index.scss' as *;
+
+.box {
+  width: 100%;
+  height: 147px;
+  border-radius: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+
+  &.active {
+    background: linear-gradient(
+      180deg,
+      $primary-color-200 0%,
+      $neutral-color-700 100%
+    );
+    transform: scale(1.05);
+  }
+
+  &.collapsed{
+    width: 60px;
+    height:59px;
+    border-radius: 10px;
+  }
+
+  &:hover {
+    background: linear-gradient(
+      180deg,
+      $primary-color-200 0%,
+      $neutral-color-700 100%
+    );
+    transform: scale(1.05);
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    &__image {
+      width: 57px;
+      height: 57px;
+      &__collapsed{
+        width: 37px;
+        height: 37px;
+      }
+    }
+  }
+}

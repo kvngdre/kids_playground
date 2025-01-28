@@ -1,0 +1,113 @@
+@use '/src/assets/sass/index.scss' as *;
+
+.inspire {
+  &_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+  }
+  &_artworks {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 45px;
+  }
+}
+
+.artwork {
+  &_wrapper {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    max-width: 238px;
+    &:hover {
+      .artwork_ellipsis,
+      .artwork_add,
+      .artwork_owner_wrapper {
+        opacity: 100;
+        cursor: pointer;
+        pointer-events: all;
+      }
+    }
+  }
+  &_img {
+    width: 100%;
+    height: 238px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px #00000033;
+  }
+  &_options {
+    &_wrapper {
+      position: absolute;
+      width: calc(100% - 34px);
+      height: calc(100% - 34px);
+      top: 17px;
+      left: 17px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  &_option_wrapper {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: flex-start;
+    &_bottom {
+      padding: 3px;
+    }
+    &.align_right {
+      justify-content: flex-end;
+    }
+  }
+  &_fav {
+    width: 31px;
+    height: auto;
+  }
+  &_ellipsis {
+    width: 26px;
+    height: auto;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    @extend *, .no-mouse-action;
+    box-shadow: 0px 4px 15px 0px #00000033;
+    margin: 5px;
+  }
+  &_owner {
+    &_wrapper {
+      padding: 2px 20px 2px 2px;
+      box-sizing: border-box;
+      border-radius: 20px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      background-color: $primary-color-400;
+      opacity: 0;
+      transition: 0.3s ease-in-out;
+      @extend *, .no-mouse-action;
+    }
+    &_img {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+    }
+    &_username {
+      font-family: Inter;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 21.78px;
+      color: $neutral-color-000;
+    }
+  }
+  &_add {
+    width: 34px;
+    height: auto;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    @extend *, .no-mouse-action;
+  }
+}

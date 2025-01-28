@@ -1,0 +1,36 @@
+@use '/src/assets/sass/index.scss' as *;
+
+.sidebar {
+  background-color: #fff;
+  padding: 33px 25px;
+  z-index: 1000;
+  box-shadow: 0px 4px 15px 0px #00000040;
+
+  grid-row: 1 / -1;
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  overflow-y: scroll;
+
+  &.isCollapsed{
+    padding: 13px 5px;
+  }
+
+  &::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $neutral-color-000;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $neutral-color-400;
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: $neutral-color-400;
+  }
+}

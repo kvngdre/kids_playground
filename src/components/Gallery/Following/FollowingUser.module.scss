@@ -1,0 +1,62 @@
+@use '/src/assets/sass/index.scss' as *;
+
+.user {
+  &_wrapper {
+    margin-top: 18px;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f3f3f3;
+  }
+  &_details {
+    &_wrapper {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+    &_img {
+      width: 42.89px;
+      height: 42.89px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center;
+    }
+    &_username {
+      @extend *, .h4;
+    }
+  }
+  &_follow {
+    @extend *, .button, .h4, .gradient_button;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 2.5px;
+      right: 2.5px;
+      bottom: 2.5px;
+      left: 2.5px;
+      background-color: $neutral-color-000;
+      border-radius: 30px;
+      z-index: -1;
+    }
+
+    &::after {
+      content: attr(data-custom);
+      font-family: MuseoSans;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      color: $primary-color-400;
+    }
+  }
+  &_following {
+    @extend *, .button, .h4, .gradient_button;
+    text-transform: capitalize;
+    color: $neutral-color-000;
+    box-sizing: border-box;
+  }
+}

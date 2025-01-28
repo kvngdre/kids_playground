@@ -1,0 +1,39 @@
+@use '/src/assets/sass/index.scss' as *;
+
+.create_container {
+  padding: 4rem 4.8rem 6.4rem;
+
+  max-width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex_container_center {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  &_wrapper {
+    width: fit-content;
+    box-sizing: border-box;
+    padding: 62px;
+    background: #ffffff;
+    border: 1px solid $neutral-color-400;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px #00000033;
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &_options {
+    &_wrapper {
+      display: flex;
+      gap: 55px;
+    }
+  }
+}

@@ -1,0 +1,232 @@
+@use '/src/assets/sass/index.scss' as *;
+
+.modal {
+  width: 448px;
+  height: 554px;
+  // max-height: 804px;
+  border-radius: 10px;
+  background-color: $neutral-color-000;
+  border: 1px solid $neutral-color-400;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media only screen and (min-width: 1700px) {
+    height: 726px;
+  }
+
+  @media only screen and (min-width: 2000px) {
+    height: 812px;
+  }
+
+  &__main {
+    width: 388px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    &__heading {
+      font-family: MuseoSans;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 34.76px;
+      color: $primary-color-400;
+    }
+
+    &__inputContainer {
+      position: relative;
+    }
+
+    &__input {
+      width: 368px;
+      height: 38.25px;
+      border-radius: 8px;
+      border: 1px solid $primary-color-400;
+      background-color: $neutral-color-100;
+      outline: none;
+      padding-left: 20px;
+
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16.94px;
+      color: $primary-color-400;
+    }
+
+    &__input::placeholder {
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16.94px;
+      color: $primary-color-400;
+    }
+
+    &__inputIcon {
+      position: absolute;
+      width: 1.4rem;
+      height: 1.4rem;
+      color: $primary-color-400;
+      right: 30px;
+      top: 7px;
+    }
+
+    &__grid {
+      height: 174px;
+      overflow-y: scroll;
+
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 9px;
+      flex-wrap: wrap;
+      padding-bottom: 30px;
+
+      &::-webkit-scrollbar {
+        width: 10.55px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: linear-gradient(
+          180deg,
+          #e4e4e4 0%,
+          #f0f0f0 49.48%,
+          #e4e4e4 100%
+        );
+        border-radius: 10px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: $primary-color-400;
+        border-radius: 10px;
+      }
+
+      &::-webkit-scrollbar-thumb:hover {
+        background-color: $primary-color-400;
+      }
+
+      @media only screen and (min-width: 1700px) {
+        height: 348px;
+      }
+
+      @media only screen and (min-width: 2000px) {
+        height: 434px;
+      }
+    }
+  }
+
+  &__preview {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 174px;
+
+    &__container {
+      width: 100%;
+      background-color: $primary-color-400;
+      padding: 18px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__text {
+      font-family: MuseoSans;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 27.8px;
+      color: $neutral-color-000;
+    }
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+
+      &__round {
+        width: 32.67px;
+        height: 27.44px;
+        border-radius: 15px;
+        background-color: $primary-color-300;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &__roundLong {
+        display: flex;
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 113.03px;
+        height: 27.44px;
+        border-radius: 15px;
+        background-color: $primary-color-300;
+      }
+
+      &__iconPlus {
+        width: 20px;
+        height: 20px;
+        color: $neutral-color-000;
+        cursor: pointer;
+      }
+
+      &__iconMinus {
+        width: 20px;
+        height: 20px;
+        color: $neutral-color-000;
+        cursor: pointer;
+      }
+
+      &__zoomLevel {
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16.94px;
+        color: $neutral-color-000;
+        cursor: pointer;
+      }
+    }
+
+    &__background {
+      background-image: url('../../assets/images/modalRectangleBg.png');
+      min-height: 100%;
+      background-size: cover;
+      // background-position: center;
+      overflow: hidden;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-bottom: 5px solid $primary-color-400;
+      padding: 20px;
+
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+      &__button {
+        width: 150px;
+        height: 35.87px;
+        border-radius: 30px;
+        outline: none;
+        font-family: MuseoSans;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19.2px;
+        color: $neutral-color-000;
+        cursor: pointer;
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          #245464 0%,
+          #183e4b 100%
+        );
+        border: none;
+      }
+    }
+  }
+}

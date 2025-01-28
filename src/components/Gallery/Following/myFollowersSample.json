@@ -1,0 +1,410 @@
+[
+  {
+    "name": "John Doe",
+    "userName": "john_doe123",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Jane Smith",
+    "userName": "jane_smith456",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Michael Johnson",
+    "userName": "michael_johnson789",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Emily Wilson",
+    "userName": "emily_wilson012",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "David Brown",
+    "userName": "david_brown345",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Sarah Lee",
+    "userName": "sarah_lee678",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Christopher Martinez",
+    "userName": "christopher_martinez901",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Jessica Taylor",
+    "userName": "jessica_taylor234",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Matthew Garcia",
+    "userName": "matthew_garcia567",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Amanda Rodriguez",
+    "userName": "amanda_rodriguez890",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Daniel Hernandez",
+    "userName": "daniel_hernandez123",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Ashley Martinez",
+    "userName": "ashley_martinez456",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "James Nguyen",
+    "userName": "james_nguyen789",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Jennifer Kim",
+    "userName": "jennifer_kim012",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Justin Lee",
+    "userName": "justin_lee345",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Lauren Brown",
+    "userName": "lauren_brown678",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Ryan Wilson",
+    "userName": "ryan_wilson901",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Stephanie Davis",
+    "userName": "stephanie_davis234",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Andrew Moore",
+    "userName": "andrew_moore567",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Nicole Jackson",
+    "userName": "nicole_jackson890",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Brandon White",
+    "userName": "brandon_white123",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Heather Harris",
+    "userName": "heather_harris456",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Timothy Martin",
+    "userName": "timothy_martin789",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Kimberly Thompson",
+    "userName": "kimberly_thompson012",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Mark Garcia",
+    "userName": "mark_garcia345",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Megan Lewis",
+    "userName": "megan_lewis678",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Juan Walker",
+    "userName": "juan_walker901",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Rachel Allen",
+    "userName": "rachel_allen234",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Kyle Young",
+    "userName": "kyle_young567",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Cassandra Hall",
+    "userName": "cassandra_hall890",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Eric Lopez",
+    "userName": "eric_lopez123",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Samantha King",
+    "userName": "samantha_king456",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Patrick Perez",
+    "userName": "patrick_perez789",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Christina Turner",
+    "userName": "christina_turner012",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Tyler Young",
+    "userName": "tyler_young345",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Katherine Scott",
+    "userName": "katherine_scott678",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Benjamin Hall",
+    "userName": "benjamin_hall901",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Rebecca Baker",
+    "userName": "rebecca_baker234",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Adam Green",
+    "userName": "adam_green567",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Laura Clark",
+    "userName": "laura_clark890",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Jacob Martinez",
+    "userName": "jacob_martinez123",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Melissa Carter",
+    "userName": "melissa_carter456",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Justin Lewis",
+    "userName": "justin_lewis789",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Emma Adams",
+    "userName": "emma_adams012",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Alexander White",
+    "userName": "alexander_white345",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Olivia Hall",
+    "userName": "olivia_hall678",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Daniel Cook",
+    "userName": "daniel_cook901",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Kelly Richardson",
+    "userName": "kelly_richardson234",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Jeremy Young",
+    "userName": "jeremy_young567",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Natalie Hill",
+    "userName": "natalie_hill890",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Tyler Thompson",
+    "userName": "tyler_thompson123",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Alexandra Robinson",
+    "userName": "alexandra_robinson456",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Aaron Nelson",
+    "userName": "aaron_nelson789",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Sara Ward",
+    "userName": "sara_ward012",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Keith Scott",
+    "userName": "keith_scott345",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Lindsay Carter",
+    "userName": "lindsay_carter678",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Evan Morris",
+    "userName": "evan_morris901",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Kaitlyn Moore",
+    "userName": "kaitlyn_moore234",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Peter Bailey",
+    "userName": "peter_bailey567",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Hannah King",
+    "userName": "hannah_king890",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Jared Turner",
+    "userName": "jared_turner123",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Molly Richardson",
+    "userName": "molly_richardson456",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Dylan Ward",
+    "userName": "dylan_ward789",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Christine Martinez",
+    "userName": "christine_martinez012",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Derek Thomas",
+    "userName": "derek_thomas345",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Tiffany Garcia",
+    "userName": "tiffany_garcia678",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  },
+  {
+    "name": "Phillip Clark",
+    "userName": "phillip_clark901",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": true
+  },
+  {
+    "name": "Monica Rodriguez",
+    "userName": "monica_rodriguez234",
+    "imageUrl": "/src/assets/images/placeholder_image.png",
+    "following": false
+  }
+]

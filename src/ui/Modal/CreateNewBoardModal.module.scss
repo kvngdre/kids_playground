@@ -1,0 +1,44 @@
+@use '/src/assets/sass/index.scss' as *;
+
+.modal {
+  width: 608px;
+  height: 274px;
+  border-radius: 10px;
+  background-color: $neutral-color-000;
+  box-shadow: 0px 4px 15px 0px #00000033;
+  box-sizing: border-box;
+  padding: 25px 47px;
+
+  // @media only screen and (max-width: 1440px) {
+  //   width: 80vw;
+  //   margin-left: 14vw;
+  // }
+}
+
+.details {
+  &_wrapper {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  &_input {
+    @extend *, .custom_input_1, .body-text;
+    padding: 11px 13px;
+    outline: none;
+    color: $primary-color-400;
+  }
+}
+
+.save {
+  &_wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 44px;
+  }
+  &_button {
+    @extend *, .button, .button_radial_gradient, .h4;
+    padding: 14px 29px;
+    cursor: pointer;
+  }
+}
