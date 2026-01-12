@@ -1,7 +1,24 @@
-# Kid Playground
+# Kids Playground
 
-Kid Playground React Application.\
-This project was bootstrapped with [Create Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite).
+A React-based creative platform for children to explore art through AI-powered tools. Kids can create artwork using AI prompts, sketches, or photos, organize their creations in galleries and boards, follow other young artists, and earn rewards for their creative achievements.
+
+## Features
+
+- **AI Art Creation**: Generate art using text prompts, sketches, or photo uploads
+- **Personal Galleries**: Organize and showcase artwork in custom galleries and boards
+- **Social Community**: Follow other artists and discover inspiring creations
+- **Parental Controls**: Secure passcode-protected settings for parent oversight
+- **Rewards System**: Earn coins and rewards for creative activities
+- **Profile Management**: Customizable user profiles with privacy controls
+
+## Tech Stack
+
+- **Frontend**: React 18 + TypeScript
+- **Build Tool**: Vite
+- **Styling**: SCSS Modules
+- **State Management**: Zustand
+- **Routing**: React Router v6
+- **UI Components**: Custom component library with Modal system
 
 ## Development Environment Setup
 
